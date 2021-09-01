@@ -27,5 +27,43 @@ body{
     font-weight: bolder;
     position: absolute;
     top: 0.7rem;
+}
 
+/* Main Style */
+
+main{
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+   
+}
+
+.buttons{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #f6f8f9;
+        
+}
+
+#add_task{
+    box-sizing: content-box;
+    background-color: #47adf1;
+    border-color:#47adf1;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+#add_section{
+    box-sizing: content-box;
+    background-color: transparent;
+    border-color:lightgray;
+    color: lightgray;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bolder;
 }
