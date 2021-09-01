@@ -32,19 +32,20 @@ body{
 /* Main Style */
 
 main{
+    
     margin: auto;
     margin-top: 40px;
     width: 800px;
-    height: 600px;
+    height: 680px;
     background-color: white;
-   
+    padding-bottom: 30px;
+    margin-bottom: 50px;   
 }
 
 .actions{
     padding-top: 20px;
     padding-bottom: 10px;
     border-bottom: 5px solid #f6f8f9;
-        
 }
 
 .button{
@@ -89,7 +90,6 @@ main{
     box-sizing: content-box;
     padding: 0 3.5px;
     background-color: transparent;
- 
 }
 
 #done{
@@ -118,7 +118,7 @@ main{
  }
  
  ul{
-     list-style: none;
+    list-style: none;
  }
 
 #editorial{
@@ -136,4 +136,13 @@ main{
 #mobile{
     background-color: #f29e33;
 }
+
+#website{
+    background-color: #d863a1;
+}
+
+#sales{
+    background-color: #b0c926;
+}
+
 
