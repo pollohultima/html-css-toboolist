@@ -64,15 +64,15 @@ main{
 }
 
 #add_section{
-       background-color: transparent;
+    background-color: transparent;
     border-color:lightgray;
     color: lightgray;
 }
 
 .container{
-padding-left: 50px;
-padding-top: 30px;
-line-height: 200%;
+    padding-left: 50px;
+    padding-top: 30px;
+    line-height: 40px;
 }
 
 .titoletto{
@@ -98,6 +98,12 @@ line-height: 200%;
     border-style:solid;
 }
 
+#miss{
+    border-color: red;
+    color: red;
+    border-style:solid;
+}
+
 .label{
     box-sizing: content-box;
     padding: 5px 15px;
@@ -107,6 +113,27 @@ line-height: 200%;
     font-size: 0.7rem;
 }
 
+.today, .upcoming{
+    margin-top: 30px; 
+ }
+ 
+ ul{
+     list-style: none;
+ }
+
 #editorial{
     background-color: #45abea;
 }
+
+#q1goals{
+    background-color: #9c72e4;
+}
+
+#recruiting{
+    background-color: #64c0a9;
+}
+
+#mobile{
+    background-color: #f29e33;
+}
+
